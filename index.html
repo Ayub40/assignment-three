@@ -39,7 +39,7 @@
 </head>
 
 <body class="font-manrope">
-    <header class="md:container md:mx-auto">
+    <header class="md:container md:mx-auto relative">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -72,8 +72,15 @@
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <a class="btn bg-ticket-primary text-white">Get Ticket</a>
+                    <div class="lg:flex items-center justify-between px-6 py-3 rounded-full gap-6">
+                        <img class="hidden lg:block" src="Images/Frame (5).png" alt="">
+                        <a class="btn bg-ticket-primary text-white">Get Ticket</a>
+
+                    </div>
                 </div>
+                <!-- <div class="navbar-end">
+                    <a class="btn bg-ticket-primary text-white">Get Ticket</a>
+                </div> -->
             </div>
         </nav>
         <!-- slider or carousel -->
@@ -82,7 +89,7 @@
             <div id="slide1" class="carousel-item relative w-full">
                 <img src="Images/1.png" class="w-full" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle text-white bg-[#131318] border-0">❮</a>
+                    <a href="#slide2" class="btn btn-circle text-white bg-[#131318] border-0">❮</a>
                     <a href="#slide2" class="btn btn-circle  text-white bg-[#131318] border-0">❯</a>
                 </div>
             </div>
@@ -95,14 +102,30 @@
                 </div>
             </div>
         </div>
+        <!-- below text and border part -->
+        <div
+            class="lg:h-[20vh] lg:w-2/3 mx-auto bg-[#131318] rounded-lg bottom-8 right-8 flex items-center justify-center lg:absolute">
+            <div class="ml-8">
+                <h2 class="text-lg lg:text-2xl font-extrabold text-[#FFFFFF]">Meet all the heroes from the field</h2>
+                <p class="font-medium text-[#FFFFFF] mt-4 text-sm lg:text-base">Dit amet consectetur. Condimentum
+                    dignissim adipiscing
+                    aliquam
+                    turpis placerat
+                    dolor. Purus urna in sit nullam proin. </p>
+            </div>
+        </div>
     </header>
+    <!-- main section start -->
     <main class="md:container md:mx-auto">
         <!-- Professional Hockeys Club section -->
         <section class="text-center my-24">
-            <h2 class="text-4xl font-extrabold mb-6">Professional Hockeys Club</h2>
-            <p class="lg:max-w-xl mb-10 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
-                placerat dolor. Purus urna in sit
-                nullam proin. </p>
+            <div class="text-center border-y-2 border-dashed mb-12">
+                <h2 class="text-4xl font-extrabold mt-6 mb-1">Professional Hockeys Club</h2>
+                <p class="lg:max-w-xl mb-10 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                    turpis
+                    placerat dolor. Purus urna in sit
+                    nullam proin. </p>
+            </div>
             <!-- radial progress section -->
             <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                 <!-- first radial card -->
@@ -149,8 +172,8 @@
         </section>
         <!-- program section -->
         <section class="my-24">
-            <div class="text-center">
-                <h2 class="text-4xl font-extrabold mb-6">Program Sections</h2>
+            <div class="text-center border-y-2 border-dashed mb-12">
+                <h2 class="text-4xl font-extrabold mt-6 mb-1">Program Sections</h2>
                 <p class="lg:max-w-3xl mb-10 mx-auto text-base font-medium">Dit amet consectetur. Condimentum dignissim
                     adipiscing aliquam
                     turpis
@@ -214,8 +237,8 @@
         </section>
         <!-- Our New Products -->
         <section class="my-24">
-            <div class="text-center">
-                <h2 class="text-4xl font-extrabold mb-6">Our New Products</h2>
+            <div class="text-center  border-y-2 border-dashed mb-12">
+                <h2 class="text-4xl font-extrabold mt-6">Our New Products</h2>
                 <p class="lg:max-w-3xl mb-10 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
                     turpis placerat dolor. Purus urna in sit nullam proin.
                 </p>
@@ -408,8 +431,8 @@
         <!-- Clients Question section -->
         <section class="my-24">
             <div class="text-center border-y-2 border-dashed mb-12">
-                <h2 class="text-4xl font-extrabold pt-2">Clients Question</h2>
-                <p class="lg:max-w-3xl mt-1 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                <h2 class="text-4xl font-extrabold mt-6 pt-2">Clients Question</h2>
+                <p class="lg:max-w-3xl mb-10 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
                     turpis placerat <br> dolor. Purus urna in sit nullam proin.</p>
             </div>
             <!-- question section -->
@@ -505,8 +528,9 @@
         <section class="my-24">
             <div class="container mx-auto ">
                 <div class="text-center border-y-2 border-dashed mb-12">
-                    <h1 class="text-4xl font-extrabold mt-1 text-center">Get In Touch</h1>
-                    <p class="text-center w-2/3 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                    <h1 class="text-4xl font-extrabold mt-6 text-center">Get In Touch</h1>
+                    <p class="text-center mb-10 w-2/3 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing
+                        aliquam
                         turpis placerat <br> dolor. Purus urna in
                         sit nullam proin. </p>
                 </div>
